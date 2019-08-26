@@ -34,7 +34,7 @@ gp_compute_server
 ```SQL
 CREATE OR REPLACE FUNCTION rint4(i int4) RETURNS int4 AS $$
 return (as.integer(i))
-$$ LANGUAGE plr;
+$$ LANGUAGE gp_compute;
 
 select rint4(12345678);
 ```
