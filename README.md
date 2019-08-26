@@ -38,3 +38,4 @@ $$ LANGUAGE gp_compute;
 
 select rint4(12345678);
 ```
+The result will be shown on the server side.
