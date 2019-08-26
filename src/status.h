@@ -1,0 +1,12 @@
+#pragma once
+
+enum gpc_status {
+  GPC_SUCCESS = 0,
+  GPC_PROC_NOT_FOUND,
+  GPC_TYPE_NOT_FOUND,
+  GPC_REL_NOT_FOUND,
+  GPC_INVALID_ARGS,
+  GPC_FAIL_TO_SEND,
+  GPC_FAIL_TO_RECV,
+  GPC_TRY_AGAIN,
+};

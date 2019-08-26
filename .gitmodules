@@ -1,0 +1,7 @@
+[submodule "lib/gpdb"]
+	path = lib/gpdb
+	url = git@github.com:greenplum-db/gpdb.git
+
+[submodule "lib/plr"]
+	path = lib/plr
+	url = git@github.com:postgres-plr/plr.git

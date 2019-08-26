@@ -1,0 +1,7 @@
+*.o
+*.so
+*.a
+*.pc
+src/gp_compute_server
+
+.vscode/

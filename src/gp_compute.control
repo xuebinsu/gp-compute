@@ -1,0 +1,5 @@
+comment = 'GP Compute: An Elastic, Resilient and Secure Computing Framework'
+default_version = '0.1'
+module_pathname = '$libdir/gp_compute_client'
+relocatable = true
+superuser = true
