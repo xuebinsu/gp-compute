@@ -7,7 +7,7 @@ GPDB_DIR = ../lib/gpdb/src/backend
 PLR_DIR = ../lib/plr
 
 PG_CONFIG = pg_config
-PG_CPPFLAGS = -I$(GPDB_DIR)
+PG_CPPFLAGS = -I$(GPDB_DIR) -I$(GPDB_DIR)/../include
 DATA_DIR = ../data
 DATA = $(EXTENSION).control $(DATA_DIR)/$(EXTENSION)--$(VRESION).sql $(DATA_DIR)/$(EXTENSION)--uninstall.sql
 
